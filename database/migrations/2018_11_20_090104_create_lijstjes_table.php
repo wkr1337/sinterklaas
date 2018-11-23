@@ -15,6 +15,9 @@ class CreateLijstjesTable extends Migration
     {
         Schema::create('lijstjes', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('user_id');
+            $table->string('title');
+            $table->mediumText('body');
             $table->timestamps();
         });
     }

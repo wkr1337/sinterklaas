@@ -11,12 +11,12 @@
           <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/vote">vote</a>
+          <a class="nav-link" href="/lijst">Lijstjes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Disabled</a>
+            <a class="nav-link" href="/lijst/create">Create lijstje</a>
         </li>
-        
+
       </ul>
       <!-- Right Side Of Navbar -->
       <ul class="navbar-nav ml-auto">
